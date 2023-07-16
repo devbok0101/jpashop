@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:/Users/devbok/dev/jpashop;MVCC=true
+    url: jdbc:h2:/Users/devbok/dev/jpashop;
     username: sa
     password:
     driver-class-name: org.h2.Driver
