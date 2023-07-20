@@ -4,16 +4,16 @@ package jpabook.jpashop.domain;
 import jakarta.persistence.*;
 import jpabook.jpashop.domain.item.Address;
 import lombok.Getter;
-import org.springframework.data.annotation.Id;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Getter
-public class  Member {
+public class Member {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "member_id")
     private Long id;
     private String name;
