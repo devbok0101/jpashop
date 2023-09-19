@@ -24,4 +24,7 @@ public class OrderItem {
     private int count;
 
 
+    public void setOrderItem(Order order) {
+        this.order = order;
+    }
 }
