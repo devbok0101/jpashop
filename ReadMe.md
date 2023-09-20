@@ -18,3 +18,4 @@
 ### 이번 주 추가로 공부할 내용
 * @Transactional(readOnly=true)를 조회 쿼리에 사용할 경우, 정말 성능적인 측면에서 효과적인가?
 * 필드 주입, 생성자 주입, 세터 주입
+* em.persist 한다고해서, insert 되지 않음
